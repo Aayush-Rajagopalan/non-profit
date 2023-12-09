@@ -47,7 +47,7 @@ export default function People() {
       <div className="text-xl font-semibold py-4 text-center">
         Executive Team
       </div>
-      <div className=" container gap-8 grid grid-cols-1 md:grid-cols-4">
+      <div className=" container gap-8 grid grid-cols-2 md:grid-cols-4">
         {ExecTeam.map((member, index) => (
           <div key={index} className="m-4">
             <div className="flex flex-col items-center justify-center text-center">
