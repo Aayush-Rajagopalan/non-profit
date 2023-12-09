@@ -89,12 +89,12 @@ const benefitThree = {
 const Founders = [
   {
     name: "Nikkil Dcruz",
-    position: "Founder",
+    position: "Founder and CEO",
     image: "https://cdn.aayus.me/uploads/WhatsApp%20Image%202023-12-06%20at%2023.56.15_c29c0cbb.jpg",
   },
   {
     name: "Prithwiraj Purkait",
-    position: "Founder",
+    position: "Founder and COO",
     image: "https://cdn.aayus.me/uploads/WhatsApp%20Image%202023-12-06%20at%2023.56.27_711a1528.jpg",
   },
 ];
@@ -113,7 +113,7 @@ const ExecTeam = [
   {
     name: "Aayush Rajagopalan",
     position: "Chief Technology Officer",
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/20190223_113404.jpg",
   },
   {
     name: "Aryan Shrivastava",

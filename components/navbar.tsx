@@ -7,7 +7,7 @@ const Navbar = () => {
   const navigation = [
     "About",
     "People",
-    "Principles",
+    "Podcasts",
     "Blog",
   ];
 
