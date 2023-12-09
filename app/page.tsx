@@ -20,10 +20,9 @@ export default function Home() {
       <Benefits data={benefitThree} />
       <SectionTitle
         pretitle="Testimonials"
-        title="Here's what our customers said"
+        title="Join our Initiaive"
       >
-        Testimonails is a great way to increase the brand trust and awareness.
-        Use this section to highlight your popular customers.
+        Sample Subtitles used for testimonials
       </SectionTitle>
       <Testimonials />
       <People />
