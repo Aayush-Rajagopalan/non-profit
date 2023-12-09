@@ -12,7 +12,7 @@ export default function People() {
           <span className="ml-2 text-transparent bg-clip-text bg-gradient-to-r from-blue-300 to-blue-700">
             <TypewriterComponent
               options={{
-                strings: ["Members", "Mentors", "Alumni", "Teams"],
+                strings: ["Team", "Crew", "Changemakers", "Members"],
 
                 autoStart: true,
                 loop: true,
