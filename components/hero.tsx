@@ -1,36 +1,54 @@
-export default function Hero() {
+"use client";
+const Hero = () => {
   return (
-    <section>
-      <div className="h-screen flex justify-center items-center max-w-screen-xl mx-auto px-4 py-28 gap-12 text-blue-400 md:px-8">
-        <div className="space-y-5 max-w-4xl mx-auto text-center">
-          <h1 className="text-sm text-blue-300 font-medium">
-            Sed ut perspiciatis unde omnis iste natus voluptatem
-          </h1>
-          <h2 className="text-4xl text-blue-400 font-extrabold mx-auto md:text-7xl">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-200 to-blue-400">
-              Straightforward Insight
-            </span>
-          </h2>
-          <p className="max-w-2xl mx-auto">
-            Sed ut perspiciatis unde omnis iste natus voluptatem accusantium
-            doloremque laudantium, totam rem aperiam, eaque ipsa quae.
-          </p>
-          <div className="items-center justify-center gap-x-3 space-y-3 sm:flex sm:space-y-0">
-            <a
-              href="javascript:void(0)"
-              className="block py-2 px-4 text-white font-medium bg-blue-600 duration-150 hover:bg-blue-500 active:bg-blue-700 rounded-lg shadow-lg hover:shadow-none"
-            >
-              Join Us
-            </a>
-            <a
-              href="javascript:void(0)"
-              className="block py-2 px-4 text-blue-300 hover:text-blue-500 font-medium duration-150 active:bg-blue-100 border rounded-lg"
-            >
-              Contact
-            </a>
+    <>
+      <div className="container h-screen flex flex-wrap ">
+        <div className="flex items-center w-full lg:w-1/2">
+          <div className="max-w-2xl mb-8">
+            <h1 className="text-4xl font-bold leading-snug tracking-tight text-zinc-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
+              Welcome to Straightforward Insight
+            </h1>
+            <p className="py-5 text-xl leading-normal text-zinc-500 lg:text-xl xl:text-2xl dark:text-zinc-300">
+              Straightforward Insight is a dynamic student-led organization
+              committed to providing valuable insight to a diverse range of
+              questions.
+            </p>
+
+            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+              <a
+                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md "
+              >
+                Contact
+              </a>
+              <a
+                href="https://github.com/web3templates/nextly-template/"
+                target="_blank"
+                rel="noopener"
+                className="px-8 py-4 text-lg font-medium text-center text-white border-2 border-blue-600 rounded-md"
+              >
+                <span> Learn more</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center w-full lg:w-1/2">
+          <div className="">
+            {/* <Image
+              src={'https://cdn.aayus.me/wallpaper.png'}
+              width="616"
+              height="617"
+              className={"object-cover"}
+              alt="Hero Illustration"
+              loading="eager"
+              placeholder="blur"
+            /> */}
           </div>
         </div>
       </div>
-    </section>
+    </>
   );
-}
+};
+export default Hero;
