@@ -16,7 +16,7 @@ const Hero = () => {
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
-                href="https://web3templates.com/templates/nextly-landing-page-template-for-startups"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white bg-blue-600 rounded-md "
@@ -24,7 +24,7 @@ const Hero = () => {
                 Contact
               </a>
               <a
-                href="https://github.com/web3templates/nextly-template/"
+                href="#"
                 target="_blank"
                 rel="noopener"
                 className="px-8 py-4 text-lg font-medium text-center text-white border-2 border-blue-600 rounded-md"
