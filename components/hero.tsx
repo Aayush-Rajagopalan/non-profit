@@ -9,9 +9,11 @@ const Hero = () => {
               Welcome to Straightforward Insight
             </h1>
             <p className="py-5 text-xl leading-normal text-zinc-500 lg:text-xl xl:text-2xl dark:text-zinc-300">
-              Straightforward Insight is a dynamic student-led organization
-              committed to providing valuable insight to a diverse range of
-              questions.
+              Welcome to Straightforward Insight, a dynamic student-led
+              organization which is committed to providing invaluable insights
+              to a diverse range of questions. We serve as a bridge, connecting
+              eager students with pre-existing organizations to offer them
+              unique opportunities for growth and learning.
             </p>
 
             <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
