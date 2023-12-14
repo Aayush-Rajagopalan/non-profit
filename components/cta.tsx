@@ -5,7 +5,7 @@ const Benefits = (props: any) => {
   const { data } = props;
   return (
     <>
-      <div className="container flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
+      <div id="about" className="container flex flex-wrap mb-20 lg:gap-10 lg:flex-nowrap ">
         <div
           className={`flex items-center justify-center w-full lg:w-3/4 ${
             props.imgPos === "right" ? "lg:order-1" : ""

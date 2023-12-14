@@ -14,10 +14,6 @@ const Navbar = () => {
       href: "#people",
     },
     {
-      name: "Podcasts",
-      href: "/contact",
-    },
-    {
       name: "Blog",
       href: "https://blog.straightforwardinsight.org",
     },

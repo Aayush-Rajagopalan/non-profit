@@ -5,7 +5,7 @@ import TypewriterComponent from "typewriter-effect";
 
 export default function People() {
   return (
-    <div className="my-10 ">
+    <div id="people" className="my-10 ">
       <div className="flex container w-full flex-col mt-4 items-center justify-center text-center">
         <h2 className="max-w-2xl mt-3 text-3xl font-bold flex leading-snug tracking-tight text-zinc-800 lg:leading-tight lg:text-4xl dark:text-white">
           Our
