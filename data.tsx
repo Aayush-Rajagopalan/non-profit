@@ -67,7 +67,7 @@ const benefitTwo = {
 };
 const benefitThree = {
   title: "How are we going to do this?",
-  desc: "Discover the unique features that set SFI apart and empower the leaders of tomorrow.",
+  desc: "In our mission to bring Straightforward Insight to life, we are strategically incorporating various methodologies aimed at maximizing our impact on the community.",
   image: "https://cdn.aayus.me/uploads/IMG_9304-1-1.png",
 
   bullets: [

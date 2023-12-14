@@ -27,7 +27,7 @@ export default function People() {
         </p>
       </div>
       <div className="text-xl font-semibold py-4 text-center">Founders</div>
-      <div className=" container gap-8 flex space-x-8 justify-center">
+      <div className="container gap-8 flex flex-wrap justify-center">
         {Founders.map((member, index) => (
           <div key={index} className="m-4">
             <div className="flex flex-col items-center justify-center text-center">
@@ -36,7 +36,7 @@ export default function People() {
                 width={100}
                 height={100}
                 alt={member.name}
-                className="rounded-full aspect-square h-32 w-32"
+                className="rounded-full aspect-square h-32 w-32 object-cover"
               />
               <div className="text-lg mt-3 font-semibold">{member.name}</div>
               <div className="text-md font-medium">{member.position}</div>
@@ -44,10 +44,12 @@ export default function People() {
           </div>
         ))}
       </div>
+
       <div className="text-xl font-semibold py-4 text-center">
         Executive Team
       </div>
-      <div className=" container gap-8 grid grid-cols-2 md:grid-cols-3">
+
+      <div className="container gap-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {ExecTeam.map((member, index) => (
           <div key={index} className="m-4">
             <div className="flex flex-col items-center justify-center text-center">
@@ -56,7 +58,7 @@ export default function People() {
                 width={100}
                 height={100}
                 alt={member.name}
-                className="rounded-full aspect-square h-32 w-32"
+                className="rounded-full aspect-square h-32 w-32 object-cover"
               />
               <div className="text-lg mt-3 font-semibold">{member.name}</div>
               <div className="text-md font-medium">{member.position}</div>
