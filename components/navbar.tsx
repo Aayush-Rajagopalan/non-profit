@@ -79,10 +79,10 @@ const Navbar = () => {
                       </Link>
                     ))}
                     <Link
-                      href="/"
+                      href="https://aayus.me/sfi_insta"
                       className="w-full px-6 py-2 mt-3 text-center text-white bg-blue-600 rounded-md lg:ml-5"
                     >
-                      Get Started
+                      Contact
                     </Link>
                   </>
                 </Disclosure.Panel>
@@ -131,7 +131,7 @@ const Navbar = () => {
             </ul>
           </div>
           <Link
-            href="/"
+            href="https://aayus.me/sfi_insta"
             className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5"
           >
             Contact
