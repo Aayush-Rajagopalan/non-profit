@@ -9,6 +9,12 @@ body{
   
 }
 
+.grad {
+  background: radial-gradient(64.1% 57.599999999999994% at 68.30000000000001% 44%,#102c6b 10.559242079671284%,hsl(240,10%,4%) 100%);
+  height: 100%;
+  width: 100%;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;

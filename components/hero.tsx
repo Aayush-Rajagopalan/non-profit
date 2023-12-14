@@ -5,7 +5,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <>
-      <div className="container  p-8 mx-auto md:my-36 xl:px-0 flex flex-wrap ">
+      <div className="container  p-8 mx-auto md:my-44 xl:px-8 flex flex-wrap ">
         <div className="flex items-center w-full lg:w-1/2">
           <div className="max-w-2xl mb-8">
             <h1 className="text-4xl font-bold leading-snug tracking-tight text-zinc-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight dark:text-white">
@@ -18,7 +18,7 @@ const Hero = () => {
               to offer them unique opportunities for growth and learning.
             </p>
 
-            <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
+            {/* <div className="flex flex-col items-start space-y-3 sm:space-x-4 sm:space-y-0 sm:items-center sm:flex-row">
               <a
                 href="#"
                 target="_blank"
@@ -35,7 +35,7 @@ const Hero = () => {
               >
                 <span> Learn more</span>
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="hidden md:flex items-center justify-center w-full lg:w-1/2">
