@@ -10,7 +10,7 @@ const Navbar = () => {
       href: "#about",
     },
     {
-      name: "People",
+      name: "Team",
       href: "#people",
     },
     {
