@@ -113,7 +113,7 @@ const ExecTeam = [
     name: "Solomon Kenneth",
     position: "Chief Marketing Officer",
     image:
-      "https://cdn.aayus.me/uploads/salon.jpg",
+      "https://cdn.aayus.me/uploads/sal.jpg",
   },
   {
     name: "Govind Krishna",
