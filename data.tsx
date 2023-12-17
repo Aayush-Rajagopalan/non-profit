@@ -68,7 +68,7 @@ const benefitTwo = {
 const benefitThree = {
   title: "How are we going to do this?",
   desc: "In our mission to bring Straightforward Insight to life, we are strategically incorporating various methodologies aimed at maximizing our impact on the community.",
-  image: "https://cdn.aayus.me/uploads/IMG_9304-1-1.png",
+  image: "https://cdn.aayus.me/uploads/pip.jpg",
 
   bullets: [
     {
@@ -105,7 +105,7 @@ const Founders = [
     name: "Prithwiraj Purkait",
     position: "Founder and COO",
     image:
-      "https://cdn.aayus.me/uploads/WhatsApp%20Image%202023-12-06%20at%2023.56.27_711a1528.jpg",
+      "https://cdn.aayus.me/uploads/pp.png",
   },
 ];
 
@@ -119,7 +119,17 @@ const ExecTeam = [
   {
     name: "Govind Krishna",
     position: "Chief Relations Officer",
-    image: "https://cdn.aayus.me/logo.png",
+    image: "https://cdn.aayus.me/uploads/gov.jpg",
+  },
+  {
+    name: "Aayush Rajagopalan",
+    position: "Chief Technology Officer",
+    image: "https://cdn.aayus.me/uploads/nah.png",
+  },
+  {
+    name: "Aamina Anjum Hussain Abedi",
+    position: "Chief Information Officer",
+    image: "https://cdn.aayus.me/uploads/cio.png",
   },
   {
     name: "Aayush Rajagopalan",

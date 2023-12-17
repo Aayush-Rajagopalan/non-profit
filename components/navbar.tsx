@@ -94,7 +94,10 @@ const Navbar = () => {
         <div className="hidden mr-3 space-x-4 lg:flex nav__item">
           <div className="hidden text-lefdt lg:flex lg:ditems-center">
             <ul className="items-center justify-end flex-1 pt-6 list-none lg:pt-0 lg:flex">
-              <Link href={"#"} className="mr-4 h-4 w-4">
+              <Link
+                href={"https://aayus.me/sfi_insta"}
+                className="mr-4 h-4 w-4"
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   preserveAspectRatio="xMidYMid"
@@ -106,7 +109,7 @@ const Navbar = () => {
                   />
                 </svg>
               </Link>
-              <Link href={"#"} className="mr-4 h-4 w-4">
+              <Link href={"https://aayus.me/sfi_yt"} className="mr-4 h-4 w-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
