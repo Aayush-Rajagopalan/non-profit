@@ -73,7 +73,7 @@ const benefitThree = {
   bullets: [
     {
       title: "Diverse Opportunities",
-      desc: "Maximizing community impact by sharing numerous volunteer opportunities and participation in various competitions for like-minded youth.",
+      desc: "Maximizing community impact by sharing numerous volunteering opportunities and participation in various competitions for like-minded youth.",
       icon: <GlobeAltIcon />,
     },
     {
