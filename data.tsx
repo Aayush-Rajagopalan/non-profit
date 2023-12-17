@@ -131,11 +131,11 @@ const ExecTeam = [
     position: "Chief Information Officer",
     image: "https://cdn.aayus.me/uploads/cio.png",
   },
-  {
-    name: "Aayush Rajagopalan",
-    position: "Chief Technology Officer",
-    image: "https://cdn.aayus.me/uploads/20190223_113404.jpg",
-  },
+  // {
+  //   name: "Aayush Rajagopalan",
+  //   position: "Chief Technology Officer",
+  //   image: "https://cdn.aayus.me/uploads/20190223_113404.jpg",
+  // },
 ];
 
 export default benefitOne;
