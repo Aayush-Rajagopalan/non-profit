@@ -109,7 +109,7 @@ const Navbar = () => {
                   />
                 </svg>
               </Link>
-              <Link href={"https://aayus.me/sfi_yt"} className="mr-4 h-4 w-4">
+              <Link href={"https://aayus.me/sfi_yt"} className="mr-4 text-white h-4 w-4">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
