@@ -104,8 +104,7 @@ const Founders = [
   {
     name: "Prithwiraj Purkait",
     position: "Founder and COO",
-    image:
-      "https://cdn.aayus.me/uploads/pp.png",
+    image: "https://cdn.aayus.me/uploads/pp2.png",
   },
 ];
 
@@ -119,17 +118,17 @@ const ExecTeam = [
   {
     name: "Govind Krishna",
     position: "Chief Relations Officer",
-    image: "https://cdn.aayus.me/uploads/gov.jpg",
+    image: "https://cdn.aayus.me/uploads/gov2.jpg",
   },
   {
     name: "Aayush Rajagopalan",
     position: "Chief Technology Officer",
-    image: "https://cdn.aayus.me/uploads/nah.png",
+    image: "https://cdn.aayus.me/uploads/cto.png",
   },
   {
     name: "Aamina Anjum Hussain Abedi",
     position: "Chief Information Officer",
-    image: "https://cdn.aayus.me/uploads/cio.png",
+    image: "https://cdn.aayus.me/uploads/cio2.png",
   },
   // {
   //   name: "Aayush Rajagopalan",
