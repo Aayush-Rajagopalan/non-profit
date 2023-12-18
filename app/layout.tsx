@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
       <Analytics/>
-      <GoogleTagManager gtmId="@next/third-parties" />
+      <GoogleTagManager gtmId="GTM-5DQG9VR8" />
       </body>
     </html>
   );
