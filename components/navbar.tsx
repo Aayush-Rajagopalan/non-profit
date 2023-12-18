@@ -2,8 +2,11 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Disclosure } from "@headlessui/react";
-
+import { Button } from "./ui/button";
+import { useRouter } from "next/navigation";
+import { sendGTMEvent } from "@next/third-parties/google";
 const Navbar = () => {
+  const router = useRouter();
   const nav = [
     {
       name: "About",
@@ -135,12 +138,15 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
-          <Link
-            href="https://aayus.me/sfi_insta"
+          <Button
+            onClick={() => {
+              sendGTMEvent({ event: "contact", value: "navbar"})
+              router.push("https://aayus.me/sfi_insta");
+            }}
             className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5"
           >
             Contact
-          </Link>
+          </Button>
         </div>
       </nav>
     </div>
