@@ -143,7 +143,7 @@ const Navbar = () => {
               sendGTMEvent({ event: "contact", value: "navbar"})
               router.push("https://aayus.me/sfi_insta");
             }}
-            className="px-6 py-2 text-white bg-blue-600 rounded-md md:ml-5"
+            className="px-6 py-2 text-white hover:bg-blue-700 bg-blue-600 rounded-md md:ml-5"
           >
             Contact
           </Button>
